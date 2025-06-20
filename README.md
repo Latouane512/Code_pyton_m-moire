@@ -1,10 +1,10 @@
 # Classification d'images UAV — K-Means et Random Forest (Pixel et OBIA)
 
-Ce projet Python porte sur la classification non supervisée et supervisée d’images satellites, en utilisant différentes approches : K-Means, SLIC K-Means, Random Forest pixel par pixel, et Random Forest orientée-objet (OBIA).
+Ce projet Python porte sur la classification non supervisée et supervisée d’images drone, en utilisant différentes approches : K-Means, SLIC K-Means, Random Forest pixel par pixel, et Random Forest orientée-objet (OBIA).
 
 ## 📂 Contenu du projet
 
-Le projet comprend plusieurs scripts et traitements réalisés sur des images satellites :
+Le projet comprend plusieurs scripts et traitements réalisés sur des images UAV :
 
 ### 🔹 Classification non supervisée
 - **K-Means classique** sur image RGB, HSV, ou LAB
@@ -19,7 +19,7 @@ Le projet comprend plusieurs scripts et traitements réalisés sur des images sa
 
 ## 🧪 Objectifs du projet
 
-- Comparer différentes méthodes de classification sur la base d’images satellites
+- Comparer différentes méthodes de classification sur la base d’images UAV
 - Étudier l’influence de l’espace colorimétrique (RGB, HSV, LAB)
 - Évaluer les performances via matrices de confusion (si données de validation disponibles)
 - Explorer les apports de l’approche orientée-objet par rapport à l’approche pixel
